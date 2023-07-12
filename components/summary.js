@@ -22,7 +22,6 @@ export default function Summary() {
                             width={20}
                             height={20}
                             alt="category icon"
-                            priority={true}
                         />
                         <p>{item.category}</p>
                     </div>
