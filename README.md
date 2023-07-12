@@ -26,10 +26,8 @@ Users should be able to:
 
 ### Screenshot
 
-Mobile view:
 ![](public/design/screenshot-mobile.png)
 
-Desktop view:
 ![](public/design/screenshot-desktop.png)
 
 ### Links
