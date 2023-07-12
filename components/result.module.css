@@ -1,0 +1,83 @@
+.result {
+    display: grid;
+    place-items: center;
+    border-radius: 0 0 2rem 2rem;
+    padding: var(--mobile-pad-b) var(--mobile-pad-i);
+    background: linear-gradient(180deg, 
+    var(--light-slate-blue), 
+    var(  --light-royal-blue));
+    text-align: center;
+}
+
+.title {
+    font-size: var(--fs);
+    font-weight: var(--fw-bold);
+    color: var(--light-lavender);
+}
+
+.gradientCircle {
+    --size: 8.5rem;
+    display: grid;
+    place-content: center;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 100vw;
+    margin-block: 1.5rem;
+    background: linear-gradient(0deg,
+    var(--persian-blue),
+    var(--violet-blue));
+    color: var(--light-lavender);
+    font-weight: var(--fw-medium);
+}
+
+.score {
+    font-size: calc(var(--fs) * 3);
+    font-weight: var(--fw-bold);
+    color: var(--white);
+    line-height: 1.25;
+}
+
+.score + p {
+    opacity: 60%;
+}
+
+.scoreText {
+    color: var(--pale-blue);
+    font-size: calc(var(--fs) * 1.25);
+    font-weight: var(--fw-bold);
+}
+
+.description {
+    color: var(--light-lavender);
+    padding-inline: 1rem;
+    margin-block: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .result {
+        flex: 1;
+        border-radius: var(--border-rad);
+    }
+
+    .title {
+        font-size: calc(var(--fs) * 1.25);
+    }
+
+    .gradientCircle {
+        --size: 12rem;
+        margin-block: 2rem;
+    }
+
+    .score {
+        font-size: calc(var(--fs) * 4);
+    }
+
+    .scoreText {
+        font-size: calc(var(--fs) * 1.75);
+    }
+
+    .description {
+        font-size: var(--fs);
+        max-width: 36ch;
+    }
+}
