@@ -5,7 +5,7 @@
     padding: var(--mobile-pad-b) var(--mobile-pad-i);
     background: linear-gradient(180deg, 
     var(--light-slate-blue), 
-    var(  --light-royal-blue));
+    var(--light-royal-blue));
     text-align: center;
 }
 
